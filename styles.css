@@ -167,8 +167,7 @@ main sections {
 
 sections {
     display: block;
-    flex: 1;
-    /*border: 4px solid black;*/
+        /*border: 4px solid black;*/
 }
 
 sections header {
