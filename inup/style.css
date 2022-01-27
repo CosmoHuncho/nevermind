@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: ghostwhite;
+    font-weight:light;
+    font-family:'Monaco', Monaco, monospace;
+}
+
+h1 {
+    color: ghostwhite;
+    font-family:'Monaco', Monaco, monospace;
+    font-weight: lighter;
+    align-items: center;
+}
+
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    /*border: 10px solid black;*/
+    min-height: 100vh;
+}
+
+section {
+    display: block;
+    border: 0px solid white;
+    min-height: 200px;
+}
+
+inner-column {
+    display: block;
+    border: 0px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    max-width: 900px;
+    flex: 1;
+    min-height: inherit;
+}
+
+login h1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
