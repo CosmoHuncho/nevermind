@@ -101,7 +101,7 @@ welcomediv text-content p{
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    border: 2px solid black;
+    border: 0px solid snow;
     border-radius: 5px;
     padding: 10px;
     flex: 1;
@@ -114,7 +114,7 @@ welcomediv text-content h1{
     align-items: center;
     font-size: 42px;
     font-weight: bold;
-    border: 2px solid black;
+    border: 0px solid black;
     border-radius: 5px;
     padding: 10px;
     flex: 1;
@@ -132,7 +132,7 @@ welcomediv picture{
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    border: 0px solid snow;
     border-radius: 5px;
     padding: none;
     flex: 1;
@@ -149,7 +149,7 @@ welcomediv picture{
 }
 
 body {
-    background: ghostwhite;
+    background: black;
     display: flex;
     flex-direction: column;
     /*border: 10px solid black;*/
@@ -171,9 +171,12 @@ sections {
     /*border: 4px solid black;*/
 }
 
+sections header {
+}
+
 inner-column {
     display: block;
-    border: 0px solid black;
+    border: 0px solid white;
     width: 98%;
     max-width: 900px;
     margin-left: auto;
@@ -209,7 +212,7 @@ inner-column header h1 {
         flex-direction: row;
     }
     header :is(inner-column, .links) {
-        flex-basis: 17%;
+        flex-basis: 16%;
     }
 }
 
@@ -217,9 +220,8 @@ header {
     display: flex;
     color: whitesmoke;
     border: none;
-    background: cadetblue;
-    min-height: 65px;
-    max-height: 65px;
+    background: black;
+    height: 65px;
     border-radius: 2px;
     flex: 1;
 }
@@ -239,15 +241,15 @@ h1 {
 }
 
 .headcontainer {
-    background: cadetblue;
+    background: black;
 }
 
 .bodycontainer {
-    background: ghostwhite;
+    background: black;
 }
 
 .footcontainer {
-    background: cadetblue;
+    background: black;
 }
 
 p {
