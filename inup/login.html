@@ -19,9 +19,11 @@
             <login>
                 <h1>login</h1>                  
                     <div class="container">
-                      <input type="text" placeholder="username" name="uname" required>
-                      <input type="password" placeholder="password" name="psw" required>
-                      <button type="submit">enter</button>
+                        <form class="container">
+                            <input type="text" id="user" placeholder="username" name="uname" required>
+                            <input type="password" id="pass" placeholder="password" name="psw" required>
+                            <button type="button" id="btn" onclick="getInfo()">enter</button>
+                        </form>
                     </div>
             </login>
         </inner-column>
@@ -32,5 +34,29 @@
             <p style="text-align: center;">nevermind © 2022</p>
         </inner-column>
     </footer>
+
+    <script>
+
+        var objPeople = [
+            {
+            username: "nevermind",
+            password: "2022"
+            }
+        ]
+
+        function getInfo() {
+            var username = document.getElementById("user").value
+            var password = document.getElementById("pass").value
+
+            for(i = 0; i < objPeople.length; i++) {
+                if(username == objPeople[i].username && password == objPeople[i].password){
+                    window.location.replace("https://cosmohuncho.github.io/nevermind/")
+                }
+            }
+
+            alert("could not log in")
+        }
+
+    </script>
 </body>
 </html>
