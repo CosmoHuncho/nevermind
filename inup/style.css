@@ -47,6 +47,18 @@ login h1 {
     flex-direction: column;
 }
 
+welcome h1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+welcome p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-direction: column;
